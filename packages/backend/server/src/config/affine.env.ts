@@ -27,6 +27,7 @@ AFFiNE.ENV_MAP = {
   METRICS_CUSTOMER_IO_TOKEN: ['metrics.customerIo.token', 'string'],
   CAPTCHA_TURNSTILE_SECRET: ['plugins.captcha.turnstile.secret', 'string'],
   COPILOT_OPENAI_API_KEY: 'plugins.copilot.openai.apiKey',
+  COPILOT_OPENAI_BASE_URL: 'plugins.copilot.openai.baseURL',
   COPILOT_FAL_API_KEY: 'plugins.copilot.fal.apiKey',
   COPILOT_PERPLEXITY_API_KEY: 'plugins.copilot.perplexity.apiKey',
   COPILOT_UNSPLASH_API_KEY: 'plugins.copilot.unsplashKey',

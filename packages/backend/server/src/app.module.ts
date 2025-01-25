@@ -223,6 +223,7 @@ export function buildAppModule() {
     .useIf(config => config.isSelfhosted, SelfhostModule)
     .useIf(config => config.flavor.renderer, DocRendererModule);
 
+  AFFiNE.isSelfhosted = true;
   // plugin modules
   ENABLED_PLUGINS.forEach(name => {
     const plugin = REGISTERED_PLUGINS.get(name);

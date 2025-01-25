@@ -39,7 +39,7 @@ export const WorkspaceAIOnboarding = () => {
 };
 
 export const PageAIOnboarding = () => {
-  const [dismissEdgeless] = useDismiss(AIOnboardingType.EDGELESS);
+  const [dismissEdgeless] = [true]; //useDismiss(AIOnboardingType.EDGELESS);
   const featureFlagService = useService(FeatureFlagService);
   const enableAI = featureFlagService.flags.enable_ai.value;
 

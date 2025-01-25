@@ -44,7 +44,7 @@ export const PropertyCollapsibleSection = forwardRef<
   (
     {
       children,
-      defaultCollapsed = false,
+      defaultCollapsed = true,
       collapsed,
       onCollapseChange,
       icon,

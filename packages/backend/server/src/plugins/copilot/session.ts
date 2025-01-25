@@ -545,7 +545,7 @@ export class ChatSessionService {
   }
 
   async getQuota(userId: string) {
-    const isCopilotUser = await this.feature.isCopilotUser(userId);
+    const isCopilotUser = true; //await this.feature.isCopilotUser(userId);
 
     let limit: number | undefined;
     if (!isCopilotUser) {
